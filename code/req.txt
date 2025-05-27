@@ -1,0 +1,39 @@
+# AI Background & Music Remover - Requirements File
+
+# Image Processing and AI Background Removal
+rembg>=2.0.50
+Pillow>=10.0.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# Audio Processing and Noise Reduction
+librosa>=0.10.1
+soundfile>=0.12.1
+noisereduce>=3.0.0
+
+# Video Processing
+moviepy>=1.0.3
+
+# Additional Dependencies for Audio/Video Processing
+scipy>=1.11.0
+numba>=0.57.0
+resampy>=0.4.2
+
+# Deep Learning Backend (for rembg)
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Utility Libraries
+requests>=2.31.0
+tqdm>=4.65.0
+
+# For handling different audio/video codecs
+ffmpeg-python>=0.2.0
+
+# Additional image format support
+imageio>=2.31.0
+imageio-ffmpeg>=0.4.8
+
+# Scientific computing
+matplotlib>=3.7.0
+pandas>=2.0.0
